@@ -19,12 +19,13 @@ dotnet clean "$ProjectName.csproj" --configuration $Configuration
 Write-Host "Publishing '$ProjectName' to '$PublishFolderFiles' ..."
 dotnet publish "$ProjectName.csproj" --output "$PublishFolderFiles" --configuration $Configuration -p:Platform=$Platform
 
-
-$FileVersion = (Get-Command $PublishFolderFiles\$ProjectName.dll).FileVersionInfo.ProductVersion
+$jsonContent = Get-Content -Path ".\entry.tp" -Raw
+$jsonObject = ConvertFrom-Json $jsonContent
+$ProjectVersion = $jsonObject.version
 
 copy "entry.tp" "$PublishFolderRoot"
 
-$TppFile = "$PublishFolder\$ProjectName-$FileVersion.tpp"
+$TppFile = "$PublishFolder\$ProjectName-$ProjectVersion.tpp"
 if (Test-Path $TppFile) {
   Remove-Item $TppFile -Force
 }
