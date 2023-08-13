@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckProcess", "CheckProcess\CheckProcess.csproj", "{E667046C-6F68-4C7C-9452-29BDC6E0BD38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Publish|x64 = Publish|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E667046C-6F68-4C7C-9452-29BDC6E0BD38}.Debug|x64.ActiveCfg = Debug|x64
+		{E667046C-6F68-4C7C-9452-29BDC6E0BD38}.Debug|x64.Build.0 = Debug|x64
+		{E667046C-6F68-4C7C-9452-29BDC6E0BD38}.Publish|x64.ActiveCfg = Publish|x64
+		{E667046C-6F68-4C7C-9452-29BDC6E0BD38}.Publish|x64.Build.0 = Publish|x64
+		{E667046C-6F68-4C7C-9452-29BDC6E0BD38}.Release|x64.ActiveCfg = Release|x64
+		{E667046C-6F68-4C7C-9452-29BDC6E0BD38}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {513A370A-EA64-4393-B12A-27596D2F1301}
+	EndGlobalSection
+EndGlobal
