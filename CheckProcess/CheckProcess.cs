@@ -34,10 +34,6 @@ namespace TouchPortalSDK
             _client.StateUpdate($"CheckProcess.Process1", "running");
 
 
-            //ToDo:
-            // - only one Setting / comma separated List of Processes -> example: Twitch Activity
-
-
             //CheckProcess
             int timerInterval = 10000; //10 second;
             var timerSetting = (_settings.FirstOrDefault(setting => setting.Name == "Update Interval (s)"))?.Value;
