@@ -1,0 +1,59 @@
+{
+  "sdk": 4,
+  "version": 2301,
+  "name": "CheckProcess",
+  "id": "CheckProcess",
+  "plugin_start_cmd": "%TP_PLUGIN_FOLDER%CheckProcess\\files\\CheckProcess.exe",
+  "settings": [
+    {
+      "name": "Update Interval (s)",
+      "default": "10",
+      "type": "number",
+      "minValue": "1",
+      "maxValue": "600"
+    },
+    {
+      "name": "Process 1",
+      "type": "text"
+    },
+    {
+      "name": "Process 2",
+      "type": "text"
+    },
+    {
+      "name": "Process 3",
+      "type": "text"
+    }
+  ],
+  "categories": [
+    {
+      "id": "CheckProcess",
+      "name": "CheckProcess",
+      "actions": [],
+      "events": [],
+      "states": [
+        {
+          "id": "CheckProcess.Process1",
+          "type": "choice",
+          "desc": "CheckProcess1",
+          "default": "running",
+          "valueChoices": ["running", "not running"]
+        },
+        {
+          "id": "CheckProcess.Process2",
+          "type": "choice",
+          "desc": "CheckProcess2",
+          "default": "running",
+          "valueChoices": ["running", "not running"]
+        },
+        {
+          "id": "CheckProcess.Process3",
+          "type": "choice",
+          "desc": "CheckProcess3",
+          "default": "running",
+          "valueChoices": ["running", "not running"]
+        }
+      ]
+    }
+  ]
+}
