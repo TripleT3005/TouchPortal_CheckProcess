@@ -1,5 +1,13 @@
 # CheckProcess  
   
+My bad... There was already a plugin for my use case. It has more functions and is much more perfected.  
+https://github.com/gitagogaming/process-monitor-touchportal-plugin  
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+  
 Deutscher Text unter dem englischen Text. / German text under the English one.  
   
 -----------------------------------------
