@@ -2,9 +2,11 @@
   
 My bad... There was already a plugin for my use case. It has more functions and is much more perfected.  
 https://github.com/gitagogaming/process-monitor-touchportal-plugin  
-
+  
 -----------------------------------------
------------------------------------------
+  
+I still use my version because it's more compact and completely fine for me. Further updates will follow in the future if required.  
+  
 -----------------------------------------
 -----------------------------------------
   
