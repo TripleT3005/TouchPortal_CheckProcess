@@ -1,6 +1,6 @@
 {
   "sdk": 4,
-  "version": 2301,
+  "version": 2401,
   "name": "CheckProcess",
   "id": "CheckProcess",
   "plugin_start_cmd": "%TP_PLUGIN_FOLDER%CheckProcess\\files\\CheckProcess.exe",

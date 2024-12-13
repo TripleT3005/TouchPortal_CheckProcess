@@ -31,3 +31,5 @@ if (Test-Path $TppFile) {
 }
 Write-Host "Generating TppFile '$TppFile'..."
 &"C:\Program Files\7-Zip\7z.exe" a "$TppFile" "$PublishFolder\*" -tzip `-xr!*.tpp
+
+pause

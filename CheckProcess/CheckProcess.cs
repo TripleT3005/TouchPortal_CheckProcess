@@ -4,7 +4,6 @@ using Microsoft.Extensions.Logging;
 using TouchPortalSDK.Interfaces;
 using TouchPortalSDK.Messages.Events;
 using TouchPortalSDK.Messages.Models;
-using TouchPortalSDK.Messages.Models.Enums;
 
 namespace TouchPortalSDK
 {
